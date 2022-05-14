@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* some pallete color classes below */
+
+body {
+    background-color: #FEFCF3;
+
+}
+
+
+.whiteBg {
+    background-color: #FEFCF3;
+}
+
+
+.darkBg {
+    background-color: #2C2C2C;
+}
+
+.greenishBg {
+    background-color: #CFEBDF;
+}
+
+.greenishLightBg {
+    background-color: rgba(255, 255, 255, 0.34);
+
+}
+
+.fontBlack {
+    color: #000000;
+}
+
+.fontSubBlack {
+    color: #2C2C2C;
+}
+
+.fontWhite {
+    color: #FEFCF3;
+
+}
+
+
+.link-items {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* website css starts below */
+
+.wrapper {}
+
+#hero-bg{
+    background-image: url(assets/images/hero.jpg);
+    background-size: cover;
+
+    
+   
+    
+   
+   
+
+}
+
+
+/* font styling below */
+
+.poppins-regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+
+}
+
+.poppins-extralight {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+
+}
+
+.poppins-semibold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.045em;
+
+
+}
+
+
+
+.work-el {
+    width: auto;
+    height: 430px;
+    border-radius: 40px;
+
+}
+
+/* skill section */
+
+.skill-progress {
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 20px;
+
+}
+
+.skill-subprogress {
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 20px;
+}
+
+.skill-progressbar{
+    background: #beffe3;
+    border-radius: 20px;
+
+}
+
+
+
+
+/* animations below  */
+
+.link-items {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+
+.link-items:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #cccccc;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .link-items:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+
+
+
+
+
+  /* copied code  */
